@@ -4,7 +4,7 @@
   style/display_tray_icon: false            # 托盘图标显示 新版 0.11.1 已默认跟随图标显示，无需这个
   style/font_face: YaHei Consolas Hybrid    # 顯示字體  YaHei Consolas Hybrid   Source Han Sans Normal
   style/font_point: 17                      # 顯示字號
-  style/horizontal: true                   # 候選窗横向顯示
+  style/horizontal: false                   # 候選窗横向顯示
   style/inline_preedit: false               # 嵌入式編輯模式
 
   # 應用程序的初始轉換狀態...

@@ -8,7 +8,7 @@
 #
 patch:
   # 每頁候選數...
-  "menu/page_size": 5
+  "menu/page_size": 6
 
   # 呼出方案選單...
   "switcher/hotkeys":
@@ -25,19 +25,19 @@ patch:
 
   # 定義預設的拼音輸入方案...
   schema_list:
-    # - {schema: luna_pinyin_fluency} # 明月拼音语句流
+    - {schema: luna_pinyin_fluency} # 明月拼音语句流
     - {schema: luna_pinyin_simp}    # 明月拼音简拼
-    - {schema: BakHoi_JyutPing}     # 北海拼音
+    # - {schema: BakHoi_JyutPing}     # 北海拼音
     # - {schema: bopomofo}            # 注音
     # - {schema: bopomofo_express}    # 注音——快打模式
     # - {schema: bopomofo_tw}         # 注音——台湾正体
     # - {schema: cangjie5}            # 仓颉五代
     # - {schema: cangjie5_express}    # 仓颉五代——快打模式
-    - {schema: luna_pinyin}         # 明月拼音
+    # - {schema: luna_pinyin}         # 明月拼音
     # - {schema: luna_pinyin_tw}      # 明月拼音——台湾正体
     - {schema: luna_quanpin}        # 全拼
     # - {schema: stroke}              # 五笔画
-    # - {schema: terra_pinyin}        # 地球拼音
+    - {schema: terra_pinyin}        # 地球拼音
     # - {schema: easy_en}             # easy english
     # - {schema: luna_pinyin_stroke}  # 明月拼音——笔画辅助码
 
