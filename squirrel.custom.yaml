@@ -147,16 +147,16 @@ patch:
       border_height: 0
       border_width: 12
       candidate_format: "%c %@"
-      candidate_text_color: 0x000000
+      candidate_text_color: 0x808080
       comment_text_color: 0x808080
       corner_radius: 6
       font_point: 15
       hilited_candidate_back_color: 0xffffff
-      hilited_candidate_label_color: 0x4ea1d3
-      hilited_candidate_text_color: 0x4ea1d3
-      hilited_text_color: 0x000000
+      hilited_candidate_label_color: 0xF6B352
+      hilited_candidate_text_color: 0xF6B352
+      hilited_text_color: 0x808080
       horizontal: true
-      label_color: 0x888888
+      label_color: 0x808080
       label_font_point: 12
       name: "简约白／Clean White"
       text_color: 0x808080
