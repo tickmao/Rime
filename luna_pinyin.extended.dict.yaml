@@ -3,6 +3,8 @@
 #
 # Luna Pinyin Extended Dictionary(Basic)  - 明月拼音擴充詞庫（基本）
 #
+#   瑾昀 <cokunhui@gmail.com>
+#
 # Thanks to the following works:
 #
 # * 拼音加加論壇beckyer製作的繁體詞庫
@@ -29,7 +31,7 @@
 # %APPDATA%\Rime  (Windows)
 #
 # 於重新部署後生效
-
+#
 
 ---
 name: luna_pinyin.extended
@@ -39,54 +41,28 @@ use_preset_vocabulary: true
 #此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 import_tables:
-  - luna_pinyin               # 系统自带词库，无意外必须开启。
-  - luna_pinyin.anime         # 动漫词汇大全，动画、主要角色、声优等等。3w
-  - luna_pinyin.chat          # 日常聊天常用词，请叫我聊天达人。3.5k
-  - luna_pinyin.cn_en         # 中英混合词条
-  - luna_pinyin.game          # 游戏名词
-  - luna_pinyin.hanyu         # 汉语大詞典
-  - luna_pinyin.history       # 历史相关
-  - luna_pinyin.movie         # 电影相关词汇，片名、演员、导演等。1.3w
-  - luna_pinyin.music         # 音乐相关词汇，歌曲、制作人、歌星之类的。2w
-  - luna_pinyin.name          # 人名词库，知乎，含中外名人 1w
-  - luna_pinyin.net           # 网络流行词，网上聊天常用的语句。3.6w
-  # - luna_pinyin.phrase        # 输入拼音弹出的颜文字词库
-  - luna_pinyin.poetry        # 常用诗词，来源于唐宋诗词、千家詩、花間集、楚辭、詩經。 2.6w
-  - luna_pinyin.website       # 网站大全，百度、知乎等。5k
-  # - luna_pinyin.extra_hanzi   # 生僻汉字库
-  - luna_pinyin.sgmain        # 搜狗核心词库
-  - luna_pinyin.sgplus        # 搜狗扩展词库1
-  - luna_pinyin.sgplus2       # 搜狗扩展词库2
-  - luna_pinyin.user          # 词库增强包
-  - luna_pinyin.english       # 英文单词库
-#  - luna_pinyin.biaoqing      # 输入‘v v’弹出的颜文字词库
-  - luna_pinyin.computer      # 计算机术语词库
-  - luna_pinyin.place         # 地名词库
-  - luna_pinyin.shopping      # 商品词库
-  - luna_pinyin.contact       # 常用人名词库
-  #以下不常用
-  - luna_pinyin.emoji         # emoji表情词库
-  - luna_pinyin.i             # 常用英文缩写词库
-  - luna_pinyin.kaomoji       #
-  # 来源 搜狗细胞词库
-  - c_botany                  # 植物学词汇
-  - c_chemistry               # 化学化工词汇
-  - c_computer                # 计算机词汇
-  - c_finance                 # 金融词汇
-  - c_geology                 # 地理地质词汇
-  - c_medicine                # 中西医词汇
-  - c_nalanxingde_all         # 纳兰性德185首
-  - c_shijing_all             # 诗经全文
-  - c_stock                   # 股票基金词汇
-  - c_popular                 # 网络流行新词
-  - c_ship                    # 船舶港口词汇
-  - c_place                   # 全国地名大全
-  - c_beihai_place            # 北海地名
-  - c_beihai_language         # 北海方言
-  - c_catering                # 餐饮词汇
-  # 用于进行自定义设置
-  - f_myphrases
-  - f_mysecretphrases
+  - luna_pinyin
+  # - luna_pinyin.hanyu
+  - luna_pinyin.poetry
+  - luna_pinyin.cn_en
+  - luna_pinyin.emoji
+  - luna_pinyin.kaomoji
+  - luna_pinyin.music
+  - luna_pinyin.movie
+  - luna_pinyin.computer
+  - luna_pinyin.name
+  - luna_pinyin.xiandaihanyuchangyongcibiao
+  - luna_pinyin.wangluoliuxingxinci
+  - luna_pinyin.zhongguolishicihuidaquan
+  - luna_pinyin.sijixingzhenquhuadimingciku
+  - luna_pinyin.shanghaishichengshixinxijingxuan
+  - luna_pinyin.mingxing
+  - luna_pinyin.jisuanjicihuidaquan
+  - luna_pinyin.chengyusuyu
+  - luna_pinyin.emoji.cldr
+  - luna_pinyin.sougou
+  - aurora_pinyin
+  #  - luna_pinyin.simonqian # 这里添加自己的词库，假如为luna_pinyin.simonqian.dict.yaml
 ...
 
 一一列舉		1
@@ -132425,8 +132401,8 @@ import_tables:
 聽讀解
 劇裏
 恆河水
-耶魯式
-雅禮式
+耶魯式 
+雅禮式 
 雅禮
 京都哈佛式
 哈佛式
@@ -133232,7 +133208,7 @@ import_tables:
 勞動節二〇一三
 醉惡遊戲
 獄中無人
-王牌播音員
+王牌播音員 
 傾聽你心
 你心
 小鎮怪客托馬斯

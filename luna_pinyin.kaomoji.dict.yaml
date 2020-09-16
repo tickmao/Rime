@@ -1,13 +1,5 @@
 # Rime dictionary - kaomoji
 # encoding: utf-8
-#
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
 # ref: http://www.facemark.jp/
 ---
 name: luna_pinyin.kaomoji
@@ -23,7 +15,7 @@ o(￣ヘ￣o＃) 	va	10
 <(￣︶￣)> 	va	10
 ╮(╯_╰)╭ 	va	10
 ╮(￣▽￣)╭	va	10
-#（ˉ﹃ˉ）	va	10
+（ˉ﹃ˉ）	va	10
 m(_ _)m	vd	10
 ≧▽≦	vd	10
 ⊙.⊙	vd	10

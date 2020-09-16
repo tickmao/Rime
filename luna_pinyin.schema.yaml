@@ -25,7 +25,8 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
-
+  - name: ascii_punct
+    states: [ 。，, ．， ]
 
 engine:
   processors:

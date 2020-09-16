@@ -3,6 +3,8 @@
 #
 # Luna Pinyin Extended Dictionary(Chinese&English) - 明月拼音擴充詞庫（含西文的詞彙）
 #
+#   瑾昀 <cokunhui@gmail.com>
+#
 # 部署位置：
 # ~/.config/ibus/rime  (Linux)
 # ~/Library/Rime  (Mac OS)
@@ -7459,7 +7461,6 @@ use_preset_vocabulary: true
 系统状况
 系统装配
 系统装入程序
-系统照片图库
 系统资源
 系统资源管理
 系统资源管理程序
@@ -8787,7 +8788,6 @@ use_preset_vocabulary: true
 招标
 召集人
 照片
-照片图库
 遮挡
 折叠
 折线
