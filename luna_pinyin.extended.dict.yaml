@@ -35,16 +35,23 @@
 
 ---
 name: luna_pinyin.extended
-version: "2014.10.28"
-sort: by_weight
+version: "2022.03.28"
+sort: by_weight #字典初始排序，可選original或by_weight
 use_preset_vocabulary: true
 #此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 import_tables:
   - luna_pinyin
-  # - luna_pinyin.hanyu
+  - luna_pinyin.xiandaihanyu
+  - essay
+  - luna_pinyin.chat
+  - luna_pinyin.kaifa
   - luna_pinyin.poetry
+  - luna_pinyin.popular
+  - luna_pinyin.place
   - luna_pinyin.cn_en
+  - luna_pinyin.shopping
+  - luna_pinyin.website
   - luna_pinyin.emoji
   - luna_pinyin.kaomoji
   - luna_pinyin.music
@@ -60,8 +67,8 @@ import_tables:
   - luna_pinyin.jisuanjicihuidaquan
   - luna_pinyin.chengyusuyu
   - luna_pinyin.emoji.cldr
+  - luna_pinyin.comprehensive
   - luna_pinyin.sougou
-  - aurora_pinyin
   #  - luna_pinyin.simonqian # 这里添加自己的词库，假如为luna_pinyin.simonqian.dict.yaml
 ...
 
@@ -132401,8 +132408,8 @@ import_tables:
 聽讀解
 劇裏
 恆河水
-耶魯式 
-雅禮式 
+耶魯式
+雅禮式
 雅禮
 京都哈佛式
 哈佛式
@@ -133208,7 +133215,7 @@ import_tables:
 勞動節二〇一三
 醉惡遊戲
 獄中無人
-王牌播音員 
+王牌播音員
 傾聽你心
 你心
 小鎮怪客托馬斯
