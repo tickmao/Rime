@@ -1,21 +1,16 @@
 # Rime
 一直在找一个体验不错的输入法来使用，发现小狼毫之后才知道原来输入法个人也可以玩的这么炫酷。他给予你很高的自由度，让你可以根据自己的想法进行定制。
 
-rime backup，小狼毫输入法个人定制设置使用备份。
+rime backup，小狼毫输入法个人定制设置使用备份，支持多系统使用。
 
 ## 操作说明
 
-1.安装[[Rime](https://rime.im/)输入法，别名：小狼毫,并注销或重启计算机
-
-2.下载仓库所有配置文件到本地
-
-3.将下载的除字体外的所有文件覆盖到用户设定文件夹
-
-4.安装字体花园明朝 ( font 目录)
-
-5.也可以在“用户文件夹”中查看
-
-6.右键点击 rime 输入法图标，点击重新部署，部署完毕即可用
+1. 安装[Rime输入法](https://rime.im/),别名：小狼毫,并注销或重启计算机
+2. 下载仓库所有配置文件到本地
+3. 将下载的除字体外的所有文件覆盖到用户设定文件夹
+4. 安装字体花园明朝 ( font 目录)
+5. 也可以在“用户文件夹”中查看
+6. 右键点击rime输入法图标，点击重新部署，部署完毕即可用
 
 > 每次修改需重新部署方可生效使用
 
@@ -23,17 +18,16 @@ rime backup，小狼毫输入法个人定制设置使用备份。
 
 **Windows**
 
-Weasel: %APPDATA%\Rime
+- Weasel: %APPDATA%\Rime
 
 **Mac OS X**
 
-Squirrel: ~/Library/Rime
+- Squirrel: ~/Library/Rime
 
 **Linux**
 
-iBus: ~/.config/ibus/rime
-
-Fcitx: ~/.config/fcitx/rime
+- Bus: ~/.config/ibus/rime
+- Fcitx: ~/.config/fcitx/rime
 
 ## 输入法配置说明
 
